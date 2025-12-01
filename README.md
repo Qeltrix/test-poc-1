@@ -11,7 +11,7 @@ This is a testing suite for a Proof-of-Concept (PoC) implementation. The PoC its
 - Python is slow, when compared to compiled language.
 - PoC limitations.
 - Not optimized,since PoC is for proof of concept.
-- very basic and non-optimized - its PoC's limit.
+- Very basic and non-optimized - its PoC's limit.
 
 ## Power Under the Hood: Why This PoC Matters
 
