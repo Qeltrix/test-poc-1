@@ -6,11 +6,11 @@
 ## Important Note
 
 This is a testing suite for a Proof-of-Concept (PoC) implementation. The PoC itself is at a very basic, foundational level - it is not even considered pre-development or a prototype. It exists solely to validate that the core concept is technically viable and worth pursuing further. This testing framework helps demonstrate that viability by measuring the fundamental characteristics of the approach.
-**This subjects to these and other factors also:**
+**Performance subjects to these and other factors also:**
 - Python's GIL.
 - Python is slow, when compared to compiled language.
 - PoC limitations.
-- Not optimized,since PoC is for proof of concept.
+- Not optimized, since PoC is for proof of concept.
 - Very basic and non-optimized - its PoC's limit.
 
 ## Power Under the Hood: Why This PoC Matters
