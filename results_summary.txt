@@ -1,0 +1,26 @@
+================================================================================================================================================================================================================================
+                                                                                            QELTRIX V1 INTEGRATION TEST SUMMARY RESULTS
+================================================================================================================================================================================================================================
+                         Test ID                          | Original Size (MB) | Packed Size (MB) | Ratio (%) | Input Entropy (bits/byte) | Output Entropy (bits/byte) |        Mode        | No Permute | Pack Time (s) | Unpack Time (s) | Pack Throughput (MB/s) | Unpack Throughput (MB/s) |      Status    
+----------------------------------------------------------|------------|------------|----------|------------|------------|--------------------|------------|----------|----------|--------------|--------------|----------------
+QLTX-V1-Highly Compressible Text-two_pass                 |       8.00 |       0.03 |      0.4 |     3.2391 |     7.9865 | two_pass           | No         |     0.52 |     0.18 |         15.4 |         44.8 | PASS           
+QLTX-V1-Low Compressibility Binary-two_pass               |       8.00 |       8.00 |    100.0 |     8.0000 |     8.0000 | two_pass           | No         |     4.84 |     4.76 |          1.7 |          1.7 | PASS           
+QLTX-V1-JSON Data-two_pass                                |       2.51 |       0.04 |      1.7 |     4.1708 |     7.9888 | two_pass           | No         |     0.62 |     0.19 |          4.0 |         13.4 | PASS           
+QLTX-V1-Highly Compressible Text-single_pass_firstN       |       3.00 |       0.01 |      0.5 |     3.2391 |     7.9530 | single_pass_firstN | No         |     0.49 |     0.18 |          6.2 |         16.8 | PASS           
+QLTX-V1-Highly Compressible Text-two_pass-NOP             |       4.00 |       0.02 |      0.4 |     3.2391 |     7.9757 | two_pass           | Yes        |     0.42 |     0.17 |          9.6 |         22.9 | PASS           
+QLTX-V1-Highly Compressible Text-two_pass                 |       0.50 |       0.00 |      0.7 |     3.2391 |     7.5341 | two_pass           | No         |     0.53 |     0.18 |          0.9 |          2.7 | PASS           
+QLTX-V1-Empty-two_pass                                    |       0.00 |       0.00 |      0.0 |     0.0000 |     5.2432 | two_pass           | No         |     0.19 |     0.17 |          0.0 |          0.0 | PASS           
+QLTX-V1-Low Compressibility Binary-single_pass_firstN     |       5.00 |       5.00 |    100.0 |     8.0000 |     8.0000 | single_pass_firstN | No         |     3.31 |     3.06 |          1.5 |          1.6 | PASS           
+QLTX-V1-Low Compressibility Binary-two_pass               |       8.00 |       8.01 |    100.1 |     8.0000 |     8.0000 | two_pass           | No         |     4.08 |     3.78 |          2.0 |          2.1 | PASS           
+QLTX-V1-Zeroed Data-two_pass                              |       4.00 |       0.02 |      0.5 |    -0.0000 |     7.9626 | two_pass           | No         |     0.50 |     0.16 |          8.0 |         24.8 | PASS           
+QLTX-V1-Low Compressibility Binary-two_pass               |      16.00 |      16.00 |    100.0 |     8.0000 |     8.0000 | two_pass           | No         |     9.99 |     9.55 |          1.6 |          1.7 | PASS           
+QLTX-V1-Highly Compressible Text-two_pass                 |       8.00 |       0.12 |      1.5 |     3.2391 |     7.2383 | two_pass           | No         |     3.20 |     0.22 |          2.5 |         36.0 | PASS           
+QLTX-V1-Non-Multiple Block Size Stress-two_pass           |       8.01 |       8.01 |    100.0 |     8.0000 |     8.0000 | two_pass           | No         |     5.11 |     4.56 |          1.6 |          1.8 | PASS           
+QLTX-V1-Low Compressibility Binary-single_pass_firstN-H0K |       2.00 |       2.00 |    100.0 |     7.9999 |     7.9999 | single_pass_firstN | No         |     1.42 |     1.28 |          1.4 |          1.6 | PASS           
+QLTX-V1-Low Compressibility Binary-two_pass-NOP           |       4.00 |       4.00 |    100.0 |     8.0000 |     8.0000 | two_pass           | Yes        |     0.66 |     0.42 |          6.1 |          9.5 | PASS           
+================================================================================================================================================================================================================================
+NOTE: Ratio (%) is Packed Size / Original Size (Lower is better compression).
+Maximum possible output entropy is 8.0 bits/byte (Closer to 8.0 is better obfuscation).
+Throughput (MB/s) is Original Size / Time (Higher is better performance).
+Copyright @hejhdiss(Muhammed Shafin P)
+================================================================================================================================================================================================================================
